@@ -8,12 +8,12 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state={
-            todos: [{
+            todoList: [{
                 //task: '',
                 //id: '',
                 //completed: false
             }],
-            todo: ''
+            singleTodo: ''
         }
     }
   render() {
